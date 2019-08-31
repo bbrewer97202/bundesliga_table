@@ -1,0 +1,51 @@
+service: fb-api-poller
+
+plugins:
+  - serverless-webpack
+  - serverless-offline
+
+provider:
+  name: aws
+  environment:
+    STAGE: "${opt:stage, self:provider.stage}"
+    STORAGE_BUCKET: "${self:custom.storage-bucket-name}"
+  runtime: nodejs10.x
+  timeout: 10
+  region: us-west-2
+  deploymentBucket:
+    name: serverless.deploys
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - "s3:*"
+      Resource: arn:aws:s3:::${self:custom.storage-bucket-name}/*
+
+custom:
+  storage-bucket-name: ${self:service}-storage-${opt:stage, self:provider.stage}
+  webpack:
+    includeModules: true
+  serverless-offline:
+    dontPrintOutput: true
+    port: 6000
+
+functions:
+  api:
+    handler: src/index.handler
+    events:
+      - http:
+          method: any
+          path: /{proxy+}
+          cors:
+            origin: "*"
+
+resources:
+  Resources:
+    ResultsStorage:
+      Type: AWS::S3::Bucket
+      Properties:
+        AccessControl: PublicRead
+        BucketName: ${self:custom.storage-bucket-name}
+  Outputs:
+    ResultsStorage:
+      Value:
+        Ref: ResultsStorage

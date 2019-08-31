@@ -1,0 +1,7 @@
+node_modules
+yarn.lock
+.serverless
+.env
+dist
+.webpack
+server/s3
