@@ -11,12 +11,12 @@ const App: React.FC = () => {
       <Router>
         <nav>
           <Link to="/">Table</Link>
-          <Link to="/team">Team</Link>
+          <Link to="/team/Liebzig">Team</Link>
           <Link to="/matches">Matches</Link>
         </nav>
         <PageView>
           <Route path="/" exact component={Table} />
-          <Route exact path="/team" component={Team} />
+          <Route exact path="/team/:teamId" component={Team} />
           <Route exact path="/matches" component={Matches} />
         </PageView>
       </Router>

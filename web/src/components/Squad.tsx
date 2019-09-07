@@ -7,8 +7,6 @@ interface SquadProps {
 }
 
 const Squad: React.FunctionComponent<SquadProps> = ({ squad }) => {
-  console.log('got squad', squad);
-
   if (!squad) return null;
 
   const coachList = squad

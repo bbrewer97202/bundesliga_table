@@ -7,8 +7,6 @@ interface TeamsProps {
 }
 
 const TeamView: React.FunctionComponent<TeamsProps> = ({ team }) => {
-  console.log('got team', team);
-
   if (!team) return null;
 
   return (

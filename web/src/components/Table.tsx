@@ -1,5 +1,6 @@
 import React from 'react';
 import Styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 interface Props {
   table: any;
@@ -8,6 +9,7 @@ interface Props {
 interface Team {
   id: number;
   name: string;
+  tla: string;
   crestUrl: string;
 }
 
@@ -24,17 +26,14 @@ interface Entry {
   won: number;
 }
 
-const TableView: React.FunctionComponent<Props> = ({ table }) => {
-  console.log('table', table);
-
+const TableView: React.FunctionComponent<Props> = ({ table = [] }) => {
   const rows = table.map((entry: Entry, index: number) => {
-    console.log('e', entry);
     return (
       <TableRow key={index}>
         <TableCell>{entry.position}</TableCell>
         <TableCell align="left">
           <TeamIcon src={entry.team.crestUrl} alt={entry.team.name} />
-          {entry.team.name}
+          <Link to={`/team/${entry.team.tla}`}>{entry.team.name}</Link>
         </TableCell>
         <TableCell>{entry.playedGames}</TableCell>
         <TableCell>{entry.points}</TableCell>

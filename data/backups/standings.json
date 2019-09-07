@@ -29,6 +29,7 @@
                   "team": {
                       "id": 721,
                       "name": "RB Leipzig",
+                      "tla": "RBL",
                       "crestUrl": "https://upload.wikimedia.org/wikipedia/en/0/04/RB_Leipzig_2014_logo.svg"
                   },
                   "playedGames": 3,
@@ -45,6 +46,7 @@
                   "team": {
                       "id": 4,
                       "name": "BV Borussia 09 Dortmund",
+                      "tla": "BVB",
                       "crestUrl": "http://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg"
                   },
                   "playedGames": 2,
@@ -61,6 +63,7 @@
                   "team": {
                       "id": 17,
                       "name": "SC Freiburg",
+                      "tla": "SCF",
                       "crestUrl": "http://upload.wikimedia.org/wikipedia/de/f/f1/SC-Freiburg_Logo-neu.svg"
                   },
                   "playedGames": 2,
@@ -77,6 +80,7 @@
                   "team": {
                       "id": 11,
                       "name": "VfL Wolfsburg",
+                      "tla": "WOB",
                       "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo-VfL-Wolfsburg.svg"
                   },
                   "playedGames": 2,
@@ -93,6 +97,7 @@
                   "team": {
                       "id": 3,
                       "name": "Bayer 04 Leverkusen",
+                      "tla": "B04",
                       "crestUrl": "https://upload.wikimedia.org/wikipedia/en/5/59/Bayer_04_Leverkusen_logo.svg"
                   },
                   "playedGames": 2,
@@ -109,6 +114,7 @@
                   "team": {
                       "id": 5,
                       "name": "FC Bayern München",
+                      "tla": "FCB",
                       "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg"
                   },
                   "playedGames": 2,
@@ -125,6 +131,7 @@
                   "team": {
                       "id": 18,
                       "name": "Borussia Mönchengladbach",
+                      "tla": "BMG",
                       "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Borussia_M%C3%B6nchengladbach_logo.svg"
                   },
                   "playedGames": 3,
@@ -141,6 +148,7 @@
                   "team": {
                       "id": 24,
                       "name": "TSV Fortuna 95 Düsseldorf",
+                      "tla": "F95",
                       "crestUrl": "http://upload.wikimedia.org/wikipedia/commons/9/94/Fortuna_D%C3%BCsseldorf.svg"
                   },
                   "playedGames": 2,
@@ -157,6 +165,7 @@
                   "team": {
                       "id": 2,
                       "name": "TSG 1899 Hoffenheim",
+                      "tla": "FPO",
                       "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg"
                   },
                   "playedGames": 2,
@@ -173,6 +182,7 @@
                   "team": {
                       "id": 19,
                       "name": "Eintracht Frankfurt",
+                      "tla": "FPO",
                       "crestUrl": "http://upload.wikimedia.org/wikipedia/commons/0/04/Eintracht_Frankfurt_Logo.svg"
                   },
                   "playedGames": 2,
@@ -189,6 +199,7 @@
                   "team": {
                       "id": 9,
                       "name": "Hertha BSC",
+                      "tla": "FPO",
                       "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Hertha_BSC_Logo_2012.svg"
                   },
                   "playedGames": 2,
@@ -205,6 +216,7 @@
                   "team": {
                       "id": 6,
                       "name": "FC Schalke 04",
+                      "tla": "FPO",
                       "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/FC_Schalke_04_Logo.svg"
                   },
                   "playedGames": 2,
@@ -221,6 +233,7 @@
                   "team": {
                       "id": 16,
                       "name": "FC Augsburg",
+                      "tla": "FPO",
                       "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/b5/Logo_FC_Augsburg.svg"
                   },
                   "playedGames": 2,
@@ -237,6 +250,7 @@
                   "team": {
                       "id": 28,
                       "name": "1. FC Union Berlin",
+                      "tla": "FPO",
                       "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/1._FC_Union_Berlin_1966_-_1990.gif"
                   },
                   "playedGames": 2,
@@ -253,6 +267,7 @@
                   "team": {
                       "id": 12,
                       "name": "SV Werder Bremen",
+                      "tla": "FPO",
                       "crestUrl": "http://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg"
                   },
                   "playedGames": 2,
@@ -269,6 +284,7 @@
                   "team": {
                       "id": 29,
                       "name": "SC Paderborn 07",
+                      "tla": "FPO",
                       "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg"
                   },
                   "playedGames": 2,
@@ -285,6 +301,7 @@
                   "team": {
                       "id": 1,
                       "name": "1. FC Köln",
+                      "tla": "FPO",
                       "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/1.FC_K%C3%B6ln_escudo.png"
                   },
                   "playedGames": 2,
@@ -301,6 +318,7 @@
                   "team": {
                       "id": 15,
                       "name": "1. FSV Mainz 05",
+                      "tla": "FPO",
                       "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg"
                   },
                   "playedGames": 2,

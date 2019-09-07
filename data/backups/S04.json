@@ -1,0 +1,365 @@
+{
+  "id": 6,
+  "area": {
+    "id": 2088,
+    "name": "Germany"
+  },
+  "activeCompetitions": [
+    {
+      "id": 2011,
+      "area": {
+        "id": 2088,
+        "name": "Germany"
+      },
+      "name": "DFB-Pokal",
+      "code": "DFB",
+      "plan": "TIER_TWO",
+      "lastUpdated": "2019-08-12T22:47:40Z"
+    },
+    {
+      "id": 2002,
+      "area": {
+        "id": 2088,
+        "name": "Germany"
+      },
+      "name": "Bundesliga",
+      "code": "BL1",
+      "plan": "TIER_ONE",
+      "lastUpdated": "2019-09-02T17:25:04Z"
+    }
+  ],
+  "name": "FC Schalke 04",
+  "shortName": "Schalke",
+  "tla": "S04",
+  "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/FC_Schalke_04_Logo.svg",
+  "address": "Ernst-Kuzorra-Weg 1 Gelsenkirchen 45891",
+  "phone": "+49 (0209) 36180",
+  "website": "http://www.schalke04.de",
+  "email": "post@schalke04.de",
+  "founded": 1904,
+  "clubColors": "Blue / White",
+  "venue": "Veltins-Arena",
+  "squad": [
+    {
+      "id": 6490,
+      "name": "Christian Wetklo",
+      "position": "Goalkeeper",
+      "dateOfBirth": "1980-01-11T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6491,
+      "name": "Alexander Nübel",
+      "position": "Goalkeeper",
+      "dateOfBirth": "1996-09-30T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 35,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6492,
+      "name": "Michael Langer",
+      "position": "Goalkeeper",
+      "dateOfBirth": "1985-01-06T00:00:00Z",
+      "countryOfBirth": "Austria",
+      "nationality": "Austria",
+      "shirtNumber": 34,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9956,
+      "name": "Markus Schubert",
+      "position": "Goalkeeper",
+      "dateOfBirth": "1998-06-12T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 23,
+      "role": "PLAYER"
+    },
+    {
+      "id": 98507,
+      "name": "Yannic Lenze",
+      "position": "Goalkeeper",
+      "dateOfBirth": "2001-02-18T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 299,
+      "name": "Salif Sané",
+      "position": "Defender",
+      "dateOfBirth": "1990-08-25T00:00:00Z",
+      "countryOfBirth": "France",
+      "nationality": "Senegal",
+      "shirtNumber": 26,
+      "role": "PLAYER"
+    },
+    {
+      "id": 3433,
+      "name": "Matija Nastasić",
+      "position": "Defender",
+      "dateOfBirth": "1993-03-28T00:00:00Z",
+      "countryOfBirth": "Serbia",
+      "nationality": "Serbia",
+      "shirtNumber": 5,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6496,
+      "name": "Bastian Oczipka",
+      "position": "Defender",
+      "dateOfBirth": "1989-01-12T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 24,
+      "role": "PLAYER"
+    },
+    {
+      "id": 7828,
+      "name": "Jonjoe Kenny",
+      "position": "Defender",
+      "dateOfBirth": "1997-03-15T00:00:00Z",
+      "countryOfBirth": "England",
+      "nationality": "England",
+      "shirtNumber": 20,
+      "role": "PLAYER"
+    },
+    {
+      "id": 30548,
+      "name": "Ozan Kabak",
+      "position": "Defender",
+      "dateOfBirth": "2000-03-25T00:00:00Z",
+      "countryOfBirth": "Turkey",
+      "nationality": "Turkey",
+      "shirtNumber": 4,
+      "role": "PLAYER"
+    },
+    {
+      "id": 32491,
+      "name": "Juan Miranda",
+      "position": "Defender",
+      "dateOfBirth": "2000-01-19T00:00:00Z",
+      "countryOfBirth": "Spain",
+      "nationality": "Spain",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 115252,
+      "name": "Jonas Carls",
+      "position": "Defender",
+      "dateOfBirth": "1997-03-25T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 3714,
+      "name": "Amine Harit",
+      "position": "Midfielder",
+      "dateOfBirth": "1997-06-18T00:00:00Z",
+      "countryOfBirth": "France",
+      "nationality": "Morocco",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6501,
+      "name": "Alessandro Schöpf",
+      "position": "Midfielder",
+      "dateOfBirth": "1994-02-07T00:00:00Z",
+      "countryOfBirth": "Austria",
+      "nationality": "Austria",
+      "shirtNumber": 7,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6502,
+      "name": "Benjamin Stambouli",
+      "position": "Midfielder",
+      "dateOfBirth": "1990-08-13T00:00:00Z",
+      "countryOfBirth": "France",
+      "nationality": "France",
+      "shirtNumber": 17,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6503,
+      "name": "Nabil Bentaleb",
+      "position": "Midfielder",
+      "dateOfBirth": "1994-11-24T00:00:00Z",
+      "countryOfBirth": "France",
+      "nationality": "Algeria",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6505,
+      "name": "Guido Burgstaller",
+      "position": "Midfielder",
+      "dateOfBirth": "1989-04-29T00:00:00Z",
+      "countryOfBirth": "Austria",
+      "nationality": "Austria",
+      "shirtNumber": 19,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6506,
+      "name": "Daniel Caligiuri",
+      "position": "Midfielder",
+      "dateOfBirth": "1988-01-15T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 18,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6507,
+      "name": "Weston McKennie",
+      "position": "Midfielder",
+      "dateOfBirth": "1998-08-28T00:00:00Z",
+      "countryOfBirth": "United States",
+      "nationality": "United States",
+      "shirtNumber": 2,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6629,
+      "name": "Suat Serdar",
+      "position": "Midfielder",
+      "dateOfBirth": "1997-07-11T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 8,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6713,
+      "name": "Omar Mascarell",
+      "position": "Midfielder",
+      "dateOfBirth": "1993-02-02T00:00:00Z",
+      "countryOfBirth": "Spain",
+      "nationality": "Equatorial Guinea",
+      "shirtNumber": 6,
+      "role": "PLAYER"
+    },
+    {
+      "id": 66357,
+      "name": "Marcel Langer",
+      "position": "Midfielder",
+      "dateOfBirth": "1997-02-16T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 14,
+      "role": "PLAYER"
+    },
+    {
+      "id": 118421,
+      "name": "Philip Fontein",
+      "position": "Midfielder",
+      "dateOfBirth": "1993-10-05T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 11,
+      "role": "PLAYER"
+    },
+    {
+      "id": 122685,
+      "name": "Münir Mercan",
+      "position": "Midfielder",
+      "dateOfBirth": "2000-12-10T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 319,
+      "name": "Mark Uth",
+      "position": "Attacker",
+      "dateOfBirth": "1991-08-24T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 20,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6839,
+      "name": "Steven Skrzybski",
+      "position": "Attacker",
+      "dateOfBirth": "1992-11-18T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 22,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9531,
+      "name": "Benito Raman",
+      "position": "Attacker",
+      "dateOfBirth": "1994-11-07T00:00:00Z",
+      "countryOfBirth": "Belgium",
+      "nationality": "Belgium",
+      "shirtNumber": 9,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9918,
+      "name": "Fabian Reese",
+      "position": "Attacker",
+      "dateOfBirth": "1997-11-29T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 21,
+      "role": "PLAYER"
+    },
+    {
+      "id": 100393,
+      "name": "Ahmed Kutucu",
+      "position": "Attacker",
+      "dateOfBirth": "2000-03-01T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Turkey",
+      "shirtNumber": 15,
+      "role": "PLAYER"
+    },
+    {
+      "id": 102975,
+      "name": "Robbi Matondo",
+      "position": "Attacker",
+      "dateOfBirth": "2000-09-09T00:00:00Z",
+      "countryOfBirth": "Wales",
+      "nationality": "Wales",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 115016,
+      "name": "Nassim Boujellab",
+      "position": "Attacker",
+      "dateOfBirth": "1999-06-20T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 15,
+      "role": "PLAYER"
+    },
+    {
+      "id": 11599,
+      "name": "David Wagner",
+      "position": null,
+      "dateOfBirth": "1971-10-19T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "United States",
+      "shirtNumber": null,
+      "role": "COACH"
+    }
+  ],
+  "lastUpdated": "2019-09-05T02:19:39Z"
+}

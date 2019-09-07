@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Table from '../components/Table';
-import fpo from '../data/fpo.json';
+import { query } from '../util.js';
 
 const TablePage: React.FC = () => {
-  return <Table table={fpo.standings[0].table} />;
+  const [table, setTable] = useState([]);
+
+  useEffect(() => {
+    query(`/table`).then(response => {
+      setTable(response);
+    });
+  }, []);
+
+  return <Table table={table} />;
 };
 
 export default TablePage;

@@ -1,0 +1,415 @@
+{
+  "id": 24,
+  "area": {
+    "id": 2088,
+    "name": "Germany"
+  },
+  "activeCompetitions": [
+    {
+      "id": 2011,
+      "area": {
+        "id": 2088,
+        "name": "Germany"
+      },
+      "name": "DFB-Pokal",
+      "code": "DFB",
+      "plan": "TIER_TWO",
+      "lastUpdated": "2019-08-12T22:47:40Z"
+    },
+    {
+      "id": 2002,
+      "area": {
+        "id": 2088,
+        "name": "Germany"
+      },
+      "name": "Bundesliga",
+      "code": "BL1",
+      "plan": "TIER_ONE",
+      "lastUpdated": "2019-09-01T22:39:29Z"
+    }
+  ],
+  "name": "TSV Fortuna 95 Düsseldorf",
+  "shortName": "Düsseldorf",
+  "tla": "F95",
+  "crestUrl": "http://upload.wikimedia.org/wikipedia/commons/9/94/Fortuna_D%C3%BCsseldorf.svg",
+  "address": "Flinger Broich 87 Düsseldorf 40235",
+  "phone": "+49 (0211) 238010",
+  "website": "http://www.f95.de",
+  "email": "service@f95.de",
+  "founded": 1911,
+  "clubColors": "Red / White",
+  "venue": "Merkur Spielarena",
+  "squad": [
+    {
+      "id": 9502,
+      "name": "Michael Rensing",
+      "position": "Goalkeeper",
+      "dateOfBirth": "1984-05-14T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9503,
+      "name": "Tim Wiesner",
+      "position": "Goalkeeper",
+      "dateOfBirth": "1996-11-21T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9504,
+      "name": "Raphael Wolf",
+      "position": "Goalkeeper",
+      "dateOfBirth": "1988-06-06T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9506,
+      "name": "Mario Zelic",
+      "position": "Goalkeeper",
+      "dateOfBirth": "2000-05-06T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 65417,
+      "name": "Jannick Theißen",
+      "position": "Goalkeeper",
+      "dateOfBirth": "1998-01-07T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 12,
+      "role": "PLAYER"
+    },
+    {
+      "id": 65741,
+      "name": "Florian Kastenmeier",
+      "position": "Goalkeeper",
+      "dateOfBirth": "1996-06-28T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 33,
+      "role": "PLAYER"
+    },
+    {
+      "id": 76596,
+      "name": "Zack Steffen",
+      "position": "Goalkeeper",
+      "dateOfBirth": "1995-04-02T00:00:00Z",
+      "countryOfBirth": "United States",
+      "nationality": "United States",
+      "shirtNumber": 24,
+      "role": "PLAYER"
+    },
+    {
+      "id": 398,
+      "name": "Johannes Bühler",
+      "position": "Defender",
+      "dateOfBirth": "1997-07-26T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 24,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6704,
+      "name": "Aymen Barkok",
+      "position": "Defender",
+      "dateOfBirth": "1998-05-21T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 8266,
+      "name": "Markus Suttner",
+      "position": "Defender",
+      "dateOfBirth": "1987-04-16T00:00:00Z",
+      "countryOfBirth": "Austria",
+      "nationality": "Austria",
+      "shirtNumber": 29,
+      "role": "PLAYER"
+    },
+    {
+      "id": 8498,
+      "name": "Diego Contento",
+      "position": "Defender",
+      "dateOfBirth": "1990-05-01T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9509,
+      "name": "Marcel Sobottka",
+      "position": "Defender",
+      "dateOfBirth": "1994-04-25T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 31,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9510,
+      "name": "Robin Bormuth",
+      "position": "Defender",
+      "dateOfBirth": "1995-09-19T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 32,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9512,
+      "name": "Kaan Ayhan",
+      "position": "Defender",
+      "dateOfBirth": "1994-11-10T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Turkey",
+      "shirtNumber": 5,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9513,
+      "name": "Niko Gießelmann",
+      "position": "Defender",
+      "dateOfBirth": "1991-09-26T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 23,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9514,
+      "name": "Jean Zimmer",
+      "position": "Defender",
+      "dateOfBirth": "1993-12-06T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 39,
+      "role": "PLAYER"
+    },
+    {
+      "id": 16269,
+      "name": "Kassim Nuhu",
+      "position": "Defender",
+      "dateOfBirth": "1995-06-22T00:00:00Z",
+      "countryOfBirth": "Ghana",
+      "nationality": "Ghana",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 56859,
+      "name": "Georgios Siadas",
+      "position": "Defender",
+      "dateOfBirth": "1999-12-27T00:00:00Z",
+      "countryOfBirth": "Greece",
+      "nationality": "Greece",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 2263,
+      "name": "Dawid Kownacki",
+      "position": "Midfielder",
+      "dateOfBirth": "1997-03-14T00:00:00Z",
+      "countryOfBirth": "Poland",
+      "nationality": "Poland",
+      "shirtNumber": 9,
+      "role": "PLAYER"
+    },
+    {
+      "id": 4218,
+      "name": "Lewis Baker",
+      "position": "Midfielder",
+      "dateOfBirth": "1995-04-25T00:00:00Z",
+      "countryOfBirth": "England",
+      "nationality": "England",
+      "shirtNumber": 34,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6854,
+      "name": "Alfredo Morales",
+      "position": "Midfielder",
+      "dateOfBirth": "1990-05-12T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "United States",
+      "shirtNumber": 6,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6862,
+      "name": "Thomas Pledl",
+      "position": "Midfielder",
+      "dateOfBirth": "1994-05-23T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 18,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9139,
+      "name": "Nana Opoku Ampomah",
+      "position": "Midfielder",
+      "dateOfBirth": "1996-01-02T00:00:00Z",
+      "countryOfBirth": "Ghana",
+      "nationality": "Ghana",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9396,
+      "name": "Matthias Zimmermann",
+      "position": "Midfielder",
+      "dateOfBirth": "1992-06-16T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 25,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9404,
+      "name": "Erik Thommy",
+      "position": "Midfielder",
+      "dateOfBirth": "1994-08-20T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 15,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9515,
+      "name": "Adam Bodzek",
+      "position": "Midfielder",
+      "dateOfBirth": "1985-09-07T00:00:00Z",
+      "countryOfBirth": "Poland",
+      "nationality": "Germany",
+      "shirtNumber": 13,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9517,
+      "name": "Oliver Fink",
+      "position": "Midfielder",
+      "dateOfBirth": "1982-06-06T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 7,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9524,
+      "name": "Andre Hoffmann",
+      "position": "Midfielder",
+      "dateOfBirth": "1993-02-28T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 3,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9999,
+      "name": "Kevin Stöger",
+      "position": "Midfielder",
+      "dateOfBirth": "1993-08-27T00:00:00Z",
+      "countryOfBirth": "Austria",
+      "nationality": "Austria",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 67385,
+      "name": "Michel Stöcker",
+      "position": "Midfielder",
+      "dateOfBirth": "1999-04-14T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 5,
+      "role": "PLAYER"
+    },
+    {
+      "id": 114684,
+      "name": "Shinta Appelkamp",
+      "position": "Midfielder",
+      "dateOfBirth": "2000-11-01T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 10,
+      "role": "PLAYER"
+    },
+    {
+      "id": 125030,
+      "name": "Kelvin Ofori",
+      "position": "Midfielder",
+      "dateOfBirth": "2001-07-27T00:00:00Z",
+      "countryOfBirth": "Ghana",
+      "nationality": "Ghana",
+      "shirtNumber": 14,
+      "role": "PLAYER"
+    },
+    {
+      "id": 303,
+      "name": "Kenan Karaman",
+      "position": "Attacker",
+      "dateOfBirth": "1994-03-05T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Turkey",
+      "shirtNumber": 11,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6510,
+      "name": "Bernhard Tekpetey",
+      "position": "Attacker",
+      "dateOfBirth": "1997-09-03T00:00:00Z",
+      "countryOfBirth": "Ghana",
+      "nationality": "Ghana",
+      "shirtNumber": 37,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9528,
+      "name": "Rouwen Hennings",
+      "position": "Attacker",
+      "dateOfBirth": "1987-08-28T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 28,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9530,
+      "name": "Emir Kujović",
+      "position": "Attacker",
+      "dateOfBirth": "1988-06-22T00:00:00Z",
+      "countryOfBirth": "Montenegro",
+      "nationality": "Sweden",
+      "shirtNumber": 20,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9922,
+      "name": "Friedhelm Funkel",
+      "position": null,
+      "dateOfBirth": "1953-12-10T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": null,
+      "role": "COACH"
+    }
+  ],
+  "lastUpdated": "2019-08-29T02:20:47Z"
+}

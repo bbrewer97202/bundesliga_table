@@ -1,0 +1,385 @@
+{
+  "id": 17,
+  "area": {
+    "id": 2088,
+    "name": "Germany"
+  },
+  "activeCompetitions": [
+    {
+      "id": 2011,
+      "area": {
+        "id": 2088,
+        "name": "Germany"
+      },
+      "name": "DFB-Pokal",
+      "code": "DFB",
+      "plan": "TIER_TWO",
+      "lastUpdated": "2019-08-12T22:47:40Z"
+    },
+    {
+      "id": 2002,
+      "area": {
+        "id": 2088,
+        "name": "Germany"
+      },
+      "name": "Bundesliga",
+      "code": "BL1",
+      "plan": "TIER_ONE",
+      "lastUpdated": "2019-09-01T22:36:49Z"
+    }
+  ],
+  "name": "SC Freiburg",
+  "shortName": "Freiburg",
+  "tla": "SCF",
+  "crestUrl": "http://upload.wikimedia.org/wikipedia/de/f/f1/SC-Freiburg_Logo-neu.svg",
+  "address": "Schwarzwaldstraße 193 Freiburg 79117",
+  "phone": "+49 (0761) 385510",
+  "website": "http://www.scfreiburg.com",
+  "email": "scf@scfreiburg.com",
+  "founded": 1912,
+  "clubColors": "Red / White",
+  "venue": "Schwarzwald-Stadion",
+  "squad": [
+    {
+      "id": 9469,
+      "name": "Alexander Schwolow",
+      "position": "Goalkeeper",
+      "dateOfBirth": "1992-06-02T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 1,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9923,
+      "name": "Mark Flekken",
+      "position": "Goalkeeper",
+      "dateOfBirth": "1993-06-13T00:00:00Z",
+      "countryOfBirth": "Netherlands",
+      "nationality": "Netherlands",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 80595,
+      "name": "Niclas Thiede",
+      "position": "Goalkeeper",
+      "dateOfBirth": "1999-04-14T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 1,
+      "role": "PLAYER"
+    },
+    {
+      "id": 186,
+      "name": "Dominique Heintz",
+      "position": "Defender",
+      "dateOfBirth": "1993-08-15T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 23,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9416,
+      "name": "Gian-Luca Itter",
+      "position": "Defender",
+      "dateOfBirth": "1999-01-05T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9472,
+      "name": "Christian Günter",
+      "position": "Defender",
+      "dateOfBirth": "1993-02-28T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 30,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9473,
+      "name": "Lukas Kübler",
+      "position": "Defender",
+      "dateOfBirth": "1992-08-30T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 17,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9474,
+      "name": "Manuel Gulde",
+      "position": "Defender",
+      "dateOfBirth": "1991-02-12T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 15,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9477,
+      "name": "Philipp Lienhart",
+      "position": "Defender",
+      "dateOfBirth": "1996-07-11T00:00:00Z",
+      "countryOfBirth": "Austria",
+      "nationality": "Austria",
+      "shirtNumber": 3,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9478,
+      "name": "Florian Kath",
+      "position": "Defender",
+      "dateOfBirth": "1994-10-21T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 7,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9479,
+      "name": "Robin Koch",
+      "position": "Defender",
+      "dateOfBirth": "1996-07-17T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 25,
+      "role": "PLAYER"
+    },
+    {
+      "id": 75539,
+      "name": "Nico Schlotterbeck",
+      "position": "Defender",
+      "dateOfBirth": "1999-12-01T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 4,
+      "role": "PLAYER"
+    },
+    {
+      "id": 3349,
+      "name": "Kwon Changhoon",
+      "position": "Midfielder",
+      "dateOfBirth": "1994-06-30T00:00:00Z",
+      "countryOfBirth": "Korea Republic",
+      "nationality": "Korea Republic",
+      "shirtNumber": 28,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6654,
+      "name": "Jonathan Schmid",
+      "position": "Midfielder",
+      "dateOfBirth": "1990-06-26T00:00:00Z",
+      "countryOfBirth": "France",
+      "nationality": "France",
+      "shirtNumber": 7,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9456,
+      "name": "Jérôme Gondorf",
+      "position": "Midfielder",
+      "dateOfBirth": "1988-06-26T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 20,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9484,
+      "name": "Mike Frantz",
+      "position": "Midfielder",
+      "dateOfBirth": "1986-10-14T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 8,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9485,
+      "name": "Nicolas Höfler",
+      "position": "Midfielder",
+      "dateOfBirth": "1990-03-09T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 27,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9486,
+      "name": "Amir Abrashi",
+      "position": "Midfielder",
+      "dateOfBirth": "1990-03-27T00:00:00Z",
+      "countryOfBirth": "Switzerland",
+      "nationality": "Albania",
+      "shirtNumber": 6,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9489,
+      "name": "Janik Haberer",
+      "position": "Midfielder",
+      "dateOfBirth": "1994-04-02T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 16,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9495,
+      "name": "Yoric Ravet",
+      "position": "Midfielder",
+      "dateOfBirth": "1989-09-12T00:00:00Z",
+      "countryOfBirth": "France",
+      "nationality": "France",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9496,
+      "name": "Patrick Kammerbauer",
+      "position": "Midfielder",
+      "dateOfBirth": "1997-02-11T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 16119,
+      "name": "Roland Sallai",
+      "position": "Midfielder",
+      "dateOfBirth": "1997-05-22T00:00:00Z",
+      "countryOfBirth": "Hungary",
+      "nationality": "Hungary",
+      "shirtNumber": 22,
+      "role": "PLAYER"
+    },
+    {
+      "id": 62947,
+      "name": "Lino Tempelmann",
+      "position": "Midfielder",
+      "dateOfBirth": "1999-02-02T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 28,
+      "role": "PLAYER"
+    },
+    {
+      "id": 65681,
+      "name": "Fabian Rüdlin",
+      "position": "Midfielder",
+      "dateOfBirth": "1997-01-13T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 8,
+      "role": "PLAYER"
+    },
+    {
+      "id": 72432,
+      "name": "Jeong Wooyeong",
+      "position": "Midfielder",
+      "dateOfBirth": "1999-09-20T00:00:00Z",
+      "countryOfBirth": "Korea Republic",
+      "nationality": "Korea Republic",
+      "shirtNumber": 20,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6537,
+      "name": "Gian-Luca Waldschmidt",
+      "position": "Attacker",
+      "dateOfBirth": "1996-05-19T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 11,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6598,
+      "name": "Brandon Borrello",
+      "position": "Attacker",
+      "dateOfBirth": "1995-07-25T00:00:00Z",
+      "countryOfBirth": "Australia",
+      "nationality": "Australia",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9497,
+      "name": "Nils Petersen",
+      "position": "Attacker",
+      "dateOfBirth": "1988-12-06T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 18,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9499,
+      "name": "Tim Kleindienst",
+      "position": "Attacker",
+      "dateOfBirth": "1995-08-31T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 28,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9500,
+      "name": "Marco Terrazzino",
+      "position": "Attacker",
+      "dateOfBirth": "1991-04-15T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 9501,
+      "name": "Lucas Höler",
+      "position": "Attacker",
+      "dateOfBirth": "1994-07-10T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 9,
+      "role": "PLAYER"
+    },
+    {
+      "id": 45083,
+      "name": "Christian Streich",
+      "position": null,
+      "dateOfBirth": "1965-06-11T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": null,
+      "role": "COACH"
+    },
+    {
+      "id": 45084,
+      "name": "Florian Bruns",
+      "position": null,
+      "dateOfBirth": "1979-08-21T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": null,
+      "role": "ASSISTANT_COACH"
+    },
+    {
+      "id": 81853,
+      "name": "Lars Voßler",
+      "position": null,
+      "dateOfBirth": "1976-03-09T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": null,
+      "role": "ASSISTANT_COACH"
+    }
+  ],
+  "lastUpdated": "2019-08-29T02:20:43Z"
+}

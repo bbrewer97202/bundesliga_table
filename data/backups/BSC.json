@@ -1,0 +1,415 @@
+{
+  "id": 9,
+  "area": {
+    "id": 2088,
+    "name": "Germany"
+  },
+  "activeCompetitions": [
+    {
+      "id": 2011,
+      "area": {
+        "id": 2088,
+        "name": "Germany"
+      },
+      "name": "DFB-Pokal",
+      "code": "DFB",
+      "plan": "TIER_TWO",
+      "lastUpdated": "2019-08-12T22:47:40Z"
+    },
+    {
+      "id": 2002,
+      "area": {
+        "id": 2088,
+        "name": "Germany"
+      },
+      "name": "Bundesliga",
+      "code": "BL1",
+      "plan": "TIER_ONE",
+      "lastUpdated": "2019-09-02T17:25:04Z"
+    }
+  ],
+  "name": "Hertha BSC",
+  "shortName": "Hertha BSC",
+  "tla": "BSC",
+  "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Hertha_BSC_Logo_2012.svg",
+  "address": "Hanns-Braun-Straße, Friesenhaus II Berlin 14053",
+  "phone": "+49 (030) 3009280",
+  "website": "http://www.herthabsc.de",
+  "email": "info@herthabsc.de",
+  "founded": 1892,
+  "clubColors": "Blue / White",
+  "venue": "Olympiastadion Berlin",
+  "squad": [
+    {
+      "id": 6544,
+      "name": "Thomas Kraft",
+      "position": "Goalkeeper",
+      "dateOfBirth": "1988-07-22T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 1,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6545,
+      "name": "Rune Jarstein",
+      "position": "Goalkeeper",
+      "dateOfBirth": "1984-09-29T00:00:00Z",
+      "countryOfBirth": "Norway",
+      "nationality": "Norway",
+      "shirtNumber": 22,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6546,
+      "name": "Dennis Smarsch",
+      "position": "Goalkeeper",
+      "dateOfBirth": "1999-01-14T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 12,
+      "role": "PLAYER"
+    },
+    {
+      "id": 188,
+      "name": "Lukas Klünter",
+      "position": "Defender",
+      "dateOfBirth": "1996-05-26T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 13,
+      "role": "PLAYER"
+    },
+    {
+      "id": 224,
+      "name": "Eduard Löwen",
+      "position": "Defender",
+      "dateOfBirth": "1997-01-28T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 7,
+      "role": "PLAYER"
+    },
+    {
+      "id": 3178,
+      "name": "Marvin Plattenhardt",
+      "position": "Defender",
+      "dateOfBirth": "1992-01-26T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 21,
+      "role": "PLAYER"
+    },
+    {
+      "id": 3647,
+      "name": "Dedryck Boyata",
+      "position": "Defender",
+      "dateOfBirth": "1990-11-28T00:00:00Z",
+      "countryOfBirth": "Belgium",
+      "nationality": "Belgium",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6548,
+      "name": "Peter Pekarík",
+      "position": "Defender",
+      "dateOfBirth": "1986-10-30T00:00:00Z",
+      "countryOfBirth": "Slovakia",
+      "nationality": "Slovakia",
+      "shirtNumber": 2,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6549,
+      "name": "Maximilian Mittelstädt",
+      "position": "Defender",
+      "dateOfBirth": "1997-03-18T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 17,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6550,
+      "name": "Florian Baak",
+      "position": "Defender",
+      "dateOfBirth": "1999-03-18T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 29,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6551,
+      "name": "Jordan Torunarigha",
+      "position": "Defender",
+      "dateOfBirth": "1997-08-07T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 25,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6552,
+      "name": "Karim Rekik",
+      "position": "Defender",
+      "dateOfBirth": "1994-12-02T00:00:00Z",
+      "countryOfBirth": "Netherlands",
+      "nationality": "Netherlands",
+      "shirtNumber": 4,
+      "role": "PLAYER"
+    },
+    {
+      "id": 66015,
+      "name": "Panzu Ernesto",
+      "position": "Defender",
+      "dateOfBirth": "1999-04-03T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 8,
+      "role": "PLAYER"
+    },
+    {
+      "id": 3442,
+      "name": "Marko Grujić",
+      "position": "Midfielder",
+      "dateOfBirth": "1996-04-13T00:00:00Z",
+      "countryOfBirth": "Serbia",
+      "nationality": "Serbia",
+      "shirtNumber": 15,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6554,
+      "name": "Per Skjelbred",
+      "position": "Midfielder",
+      "dateOfBirth": "1987-06-16T00:00:00Z",
+      "countryOfBirth": "Norway",
+      "nationality": "Norway",
+      "shirtNumber": 3,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6556,
+      "name": "Vladimír Darida",
+      "position": "Midfielder",
+      "dateOfBirth": "1990-08-08T00:00:00Z",
+      "countryOfBirth": "Czech Republic",
+      "nationality": "Czech Republic",
+      "shirtNumber": 6,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6557,
+      "name": "Niklas Stark",
+      "position": "Midfielder",
+      "dateOfBirth": "1995-04-14T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 5,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6560,
+      "name": "Ondrej Duda",
+      "position": "Midfielder",
+      "dateOfBirth": "1994-12-15T00:00:00Z",
+      "countryOfBirth": "Slovakia",
+      "nationality": "Slovakia",
+      "shirtNumber": 10,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6562,
+      "name": "Arne Maier",
+      "position": "Midfielder",
+      "dateOfBirth": "1999-01-08T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6564,
+      "name": "Maurice Covic",
+      "position": "Midfielder",
+      "dateOfBirth": "1998-04-17T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 34,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6714,
+      "name": "Marius Wolf",
+      "position": "Midfielder",
+      "dateOfBirth": "1995-05-27T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 8128,
+      "name": "Dodi Lukebakio",
+      "position": "Midfielder",
+      "dateOfBirth": "1997-09-24T00:00:00Z",
+      "countryOfBirth": "Belgium",
+      "nationality": "Belgium",
+      "shirtNumber": 28,
+      "role": "PLAYER"
+    },
+    {
+      "id": 56836,
+      "name": "Maksimilian Pronichev",
+      "position": "Midfielder",
+      "dateOfBirth": "1997-11-17T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Russia",
+      "shirtNumber": 31,
+      "role": "PLAYER"
+    },
+    {
+      "id": 56837,
+      "name": "Dennis Jastrzembski",
+      "position": "Midfielder",
+      "dateOfBirth": "2000-02-20T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 32,
+      "role": "PLAYER"
+    },
+    {
+      "id": 66996,
+      "name": "Sidney Friede",
+      "position": "Midfielder",
+      "dateOfBirth": "1998-04-12T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 26,
+      "role": "PLAYER"
+    },
+    {
+      "id": 120964,
+      "name": "Julian Albrecht",
+      "position": "Midfielder",
+      "dateOfBirth": "2001-08-31T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 3420,
+      "name": "Mathew Leckie",
+      "position": "Attacker",
+      "dateOfBirth": "1991-02-04T00:00:00Z",
+      "countryOfBirth": "Australia",
+      "nationality": "Australia",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6566,
+      "name": "Salomon Kalou",
+      "position": "Attacker",
+      "dateOfBirth": "1985-08-05T00:00:00Z",
+      "countryOfBirth": "Côte d’Ivoire",
+      "nationality": "Côte d’Ivoire",
+      "shirtNumber": 8,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6567,
+      "name": "Vedad Ibišević",
+      "position": "Attacker",
+      "dateOfBirth": "1984-08-06T00:00:00Z",
+      "countryOfBirth": "Bosnia and Herzegovina",
+      "nationality": "Bosnia and Herzegovina",
+      "shirtNumber": 19,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6568,
+      "name": "Alexander Esswein",
+      "position": "Attacker",
+      "dateOfBirth": "1990-03-25T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 9,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6569,
+      "name": "Pal Dárdai",
+      "position": "Attacker",
+      "dateOfBirth": "1999-04-24T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 24,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6570,
+      "name": "Davie Selke",
+      "position": "Attacker",
+      "dateOfBirth": "1995-01-20T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 27,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6779,
+      "name": "Pascal Köpke",
+      "position": "Attacker",
+      "dateOfBirth": "1995-09-03T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Germany",
+      "shirtNumber": 14,
+      "role": "PLAYER"
+    },
+    {
+      "id": 56598,
+      "name": "Javairô Dilrosun",
+      "position": "Attacker",
+      "dateOfBirth": "1998-06-22T00:00:00Z",
+      "countryOfBirth": "Netherlands",
+      "nationality": "Netherlands",
+      "shirtNumber": 16,
+      "role": "PLAYER"
+    },
+    {
+      "id": 56838,
+      "name": "Muhammed Kiprit",
+      "position": "Attacker",
+      "dateOfBirth": "1999-07-09T00:00:00Z",
+      "countryOfBirth": "Turkey",
+      "nationality": "Turkey",
+      "shirtNumber": 36,
+      "role": "PLAYER"
+    },
+    {
+      "id": 122284,
+      "name": "Daishawn Redan",
+      "position": "Attacker",
+      "dateOfBirth": "2001-02-02T00:00:00Z",
+      "countryOfBirth": "Netherlands",
+      "nationality": "Netherlands",
+      "shirtNumber": 33,
+      "role": "PLAYER"
+    },
+    {
+      "id": 66022,
+      "name": "Ante Čović",
+      "position": null,
+      "dateOfBirth": "1975-08-31T00:00:00Z",
+      "countryOfBirth": "Germany",
+      "nationality": "Croatia",
+      "shirtNumber": null,
+      "role": "COACH"
+    }
+  ],
+  "lastUpdated": "2019-09-05T02:19:40Z"
+}
