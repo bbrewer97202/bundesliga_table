@@ -21,6 +21,9 @@ provider:
         - "s3:*"
       Resource: arn:aws:s3:::${self:custom.storage-bucket-name}/*
 
+package:
+  individually: true
+
 custom:
   storage-bucket-name: ${self:service}-storage-${opt:stage, self:provider.stage}
   webpack:
@@ -38,6 +41,11 @@ functions:
           path: /{proxy+}
           cors:
             origin: "*"
+  schedule:
+    handler: src/scheduled/index.handler
+    events:
+      # -schedule: cron(0 22 ? * FRI-MON 2019-2020) #10pm UST/3pm PST
+      - schedule: cron(0 22 ? * FRI-MON 2019-2020) #10pm UST/3pm PST
 
 resources:
   Resources:

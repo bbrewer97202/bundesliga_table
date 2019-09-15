@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { getTLAByTeamId } from '../util.js';
 
 interface Props {
   matches: any;
@@ -52,14 +54,19 @@ interface MatchReferee {
 }
 
 const MatchesView: React.FunctionComponent<Props> = ({ matches = [] }) => {
+  const matchDays = {};
+
   const table = matches.map((match: Match) => {
+    if (match.matchday !== 2) return;
     return (
       <div key={match.id}>
         <h5>{`Matchday: ${match.matchday}: ${match.utcDate}`}</h5>
         <div>
-          <span>{match.homeTeam.name}</span>
+          <span>
+            <Link to={`/teams/${getTLAByTeamId(match.homeTeam.id)}`}>{match.homeTeam.name}</Link>
+          </span>
           <span> vs. </span>
-          <span>{match.awayTeam.name}</span>
+          <Link to={`/teams/${getTLAByTeamId(match.awayTeam.id)}`}>{match.awayTeam.name}</Link>
         </div>
       </div>
     );

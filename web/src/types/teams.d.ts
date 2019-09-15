@@ -40,3 +40,16 @@ export interface Player {
   shirtNumber: number | null;
   role: string;
 }
+
+export interface TableEntry {
+  draw: number;
+  goalDifference: number;
+  goalsAgainst: number;
+  goalsFor: number;
+  lost: number;
+  playedGames: number;
+  points: number;
+  position: number;
+  team: Team;
+  won: number;
+}

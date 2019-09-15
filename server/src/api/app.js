@@ -8,7 +8,8 @@ import cors from 'cors';
 import table from './table.js';
 import team from './team.js';
 import matches from './matches.js';
-import { getStandings } from '../scheduled/index.js';
+import teamList from './teamlist.js';
+// import { getStandings } from '../scheduled/index.js';
 
 const app = express();
 const router = express.Router();
@@ -28,6 +29,12 @@ router.get('/table', async (req, res) => {
 
 router.get('/matches', async (req, res) => {
   const result = await matches();
+  if (!result) return res.sendStatus(400);
+  res.json(result);
+});
+
+router.get('/teams', async (req, res) => {
+  const result = await teamList();
   if (!result) return res.sendStatus(400);
   res.json(result);
 });

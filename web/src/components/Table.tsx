@@ -1,6 +1,7 @@
 import React from 'react';
 import Styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import { TableEntry } from '../types/teams';
 
 interface Props {
   table: any;
@@ -13,27 +14,14 @@ interface Team {
   crestUrl: string;
 }
 
-interface Entry {
-  draw: number;
-  goalDifference: number;
-  goalsAgainst: number;
-  goalsFor: number;
-  lost: number;
-  playedGames: number;
-  points: number;
-  position: number;
-  team: Team;
-  won: number;
-}
-
 const TableView: React.FunctionComponent<Props> = ({ table = [] }) => {
-  const rows = table.map((entry: Entry, index: number) => {
+  const rows = table.map((entry: TableEntry, index: number) => {
     return (
       <TableRow key={index}>
         <TableCell>{entry.position}</TableCell>
         <TableCell align="left">
           <TeamIcon src={entry.team.crestUrl} alt={entry.team.name} />
-          <Link to={`/team/${entry.team.tla}`}>{entry.team.name}</Link>
+          <Link to={`/teams/${entry.team.tla}`}>{entry.team.name}</Link>
         </TableCell>
         <TableCell>{entry.playedGames}</TableCell>
         <TableCell>{entry.points}</TableCell>

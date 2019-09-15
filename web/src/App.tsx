@@ -1,23 +1,22 @@
 import React from 'react';
 import Styled from 'styled-components';
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
-import Table from './pages/TablePage';
-import Team from './pages/TeamPage';
-import Matches from './pages/MatchesPage';
+import AppNavigation from './components/AppNavigation';
+import TablePage from './pages/TablePage';
+import AllTeamsPage from './pages/AllTeamsPage';
+import TeamPage from './pages/TeamPage';
+import MatchesPage from './pages/MatchesPage';
 
 const App: React.FC = () => {
   return (
     <Body>
       <Router>
-        <nav>
-          <Link to="/">Table</Link>
-          <Link to="/team/Liebzig">Team</Link>
-          <Link to="/matches">Matches</Link>
-        </nav>
+        <AppNavigation />
         <PageView>
-          <Route path="/" exact component={Table} />
-          <Route exact path="/team/:teamId" component={Team} />
-          <Route exact path="/matches" component={Matches} />
+          <Route exact path="/" component={TablePage} />
+          <Route exact path="/teams" component={AllTeamsPage} />
+          <Route exact path="/teams/:teamId" component={TeamPage} />
+          <Route exact path="/matches" component={MatchesPage} />
         </PageView>
       </Router>
     </Body>
@@ -25,7 +24,7 @@ const App: React.FC = () => {
 };
 
 const Body = Styled.main`
-  background-color: #999;
+  background-color: #fff;
 `;
 
 const PageView = Styled.article`

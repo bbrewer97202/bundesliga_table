@@ -36,6 +36,10 @@ export const saveToS3 = async (data, key) => {
 
   data = typeof data !== 'string' ? JSON.stringify(data) : data;
 
+  console.log('saveToS3 bucket: ', process.env.STORAGE_BUCKET);
+  console.log('saveToS3 key: ', key);
+  console.log('saveToS3 data: ', data);
+
   try {
     return s3
       .putObject({
