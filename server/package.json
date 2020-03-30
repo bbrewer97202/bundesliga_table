@@ -5,7 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "serverless offline start",
+    "start": "AWS_PROFILE=bbrewer97202 serverless offline start",
     "deploy": "serverless deploy --stage dev --verbose"
   },
   "author": "",

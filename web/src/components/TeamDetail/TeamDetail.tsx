@@ -1,12 +1,12 @@
 import React from 'react';
-import Squad from '../components/Squad';
-import { Team } from '../types/teams';
+import Squad from './Squad';
+import { Team } from '../../types/teams';
 
 interface TeamsProps {
   team?: Team;
 }
 
-const TeamView: React.FunctionComponent<TeamsProps> = ({ team }) => {
+const TeamDetail = ({ team }: TeamsProps) => {
   if (!team) return null;
 
   return (
@@ -18,4 +18,4 @@ const TeamView: React.FunctionComponent<TeamsProps> = ({ team }) => {
   );
 };
 
-export default TeamView;
+export default TeamDetail;

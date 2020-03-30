@@ -9,7 +9,6 @@ provider:
   environment:
     STAGE: "${opt:stage, self:provider.stage}"
     STORAGE_BUCKET: "${self:custom.storage-bucket-name}"
-    FOOTBALL_DATA_TOKEN: ${ssm:football-data-token}
   runtime: nodejs10.x
   timeout: 10
   region: us-west-2

@@ -1,6 +1,6 @@
 import React from 'react';
 import Styled from 'styled-components';
-import { Player } from '../types/teams';
+import { Player } from '../../types/teams';
 
 interface SquadProps {
   squad: Player[];

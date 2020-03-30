@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Matches from '../components/Matches';
 import { query } from '../util.js';
 
-const MatchesPage: React.FC = () => {
+const MatchesPage = () => {
   const [matches, setMatches] = useState([]);
 
   useEffect(() => {

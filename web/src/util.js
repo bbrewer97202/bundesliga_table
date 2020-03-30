@@ -1,4 +1,6 @@
 //TODO: error handling
+//TODO: env vatiable for remote
+//TODO: localhost vs remote detection
 export const query = path => {
   //https://kv4zfbhwei.execute-api.us-west-2.amazonaws.com/dev/
   return fetch(`http://localhost:3030${path}`)
@@ -8,6 +10,7 @@ export const query = path => {
     });
 };
 
+//TODO: read list from file
 export const getTLAByTeamId = id => {
   const tlaList = [
     { id: 1, tla: 'KOE' },

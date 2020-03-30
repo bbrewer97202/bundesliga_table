@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import Table from '../components/Table';
+import Table from '../components/Table/Table';
 import { query } from '../util.js';
+import { TableEntry } from '../types/teams';
 
-const TablePage: React.FC = () => {
-  const [table, setTable] = useState([]);
+type TableState = TableEntry[] | [];
+
+const TablePage = () => {
+  const [table, setTable] = useState<TableState>([]);
 
   useEffect(() => {
     query(`/table`).then(response => {

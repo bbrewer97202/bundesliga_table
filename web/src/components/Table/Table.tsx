@@ -1,20 +1,20 @@
 import React from 'react';
-import Styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { TableEntry } from '../types/teams';
+import * as Styled from './Table-styles';
+import LoadingSpinner from '../LoadingSpinner/LoadingSpinner';
+import { TableEntry } from '../../types/teams';
 
 interface Props {
-  table: any;
+  table: TableEntry[];
 }
 
-interface Team {
-  id: number;
-  name: string;
-  tla: string;
-  crestUrl: string;
-}
+const { Table, TableHead, TableRow, TableCell, TeamIcon } = Styled;
 
-const TableView: React.FunctionComponent<Props> = ({ table = [] }) => {
+const TableView = ({ table = [] }: Props) => {
+  if (!table.length) {
+    return <LoadingSpinner />;
+  }
+
   const rows = table.map((entry: TableEntry, index: number) => {
     return (
       <TableRow key={index}>
@@ -59,36 +59,5 @@ const TableView: React.FunctionComponent<Props> = ({ table = [] }) => {
     </Table>
   );
 };
-
-const TeamIcon = Styled.img`
-  display: inline-block;
-  width: 20px;
-  height: auto;
-  margin-right: 0.5em;
-  vertical-align: middle;
-`;
-
-const Table = Styled.table`
-  border-spacing: 0;
-`;
-
-const TableRow = Styled.tr`
-  &:nth-of-type(even) {
-    background-color: #eee;
-  }
-`;
-
-const TableHead = Styled.th`
-  text-align: ${({ align }) => (align === 'left' ? 'left' : 'center')};
-  padding: 0.2rem 0.6rem;
-  background-color: #f2661f;
-  color: #fff;
-`;
-
-const TableCell = Styled.td`
-  text-align: ${({ align }) => (align === 'left' ? 'left' : 'center')};
-  padding: 0.2rem 0.6rem;
-  height: 32px;
-`;
 
 export default TableView;

@@ -2,8 +2,8 @@ import AWS from 'aws-sdk';
 import fetch from 'node-fetch';
 import teamData from '../../data/teamData.json';
 
-if (process.env.IS_OFFLINE) {
-  const credentials = new AWS.SharedIniFileCredentials({ profile: 'default' });
+if (process.env.IS_OFFLINE && process.env.AWS_PROFILE) {
+  const credentials = new AWS.SharedIniFileCredentials({ profile: process.env.AWS_PROFILE });
   AWS.config.credentials = credentials;
 }
 const s3 = new AWS.S3();
